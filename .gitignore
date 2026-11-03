@@ -1,0 +1,51 @@
+# Track only core sources, patches and product documentation.
+# Maintainer scaffolding and outputs stay local, including newly added tools.
+/*
+!/.gitattributes
+!/.gitignore
+!/README.md
+!/README.zh-CN.md
+!/LICENSE
+!/NOTICE.md
+!/LICENSES/
+!/patches/
+!/runtime/
+!/installer/
+!/scripts/
+!/inputs/
+
+/runtime/*
+!/runtime/mixin/
+!/runtime/diagnostics/
+/runtime/mixin/*
+!/runtime/mixin/src/
+/runtime/diagnostics/*
+!/runtime/diagnostics/src/
+
+/installer/*
+!/installer/src/
+!/installer/INSTALL.zh-CN.md
+!/installer/LAUNCHERS.zh-CN.md
+
+# Generated files inside core source trees.
+**/build/
+**/run/
+**/__pycache__/
+*.class
+*.jar
+*.pyc
+*.log
+.env
+.env.*
+
+# Shared product code for generating HMCL-compatible installer JARs.
+/scripts/*
+!/scripts/build_installer.py
+!/scripts/installer_payload.py
+/inputs/*
+!/inputs/l0-inputs.lock.json
+!/inputs/l0-libraries.lock.json
+!/inputs/java8-libraries.lock.json
+!/inputs/launcher.lock.json
+!/installer/METADATA.md
+!/installer/NOTICES.md

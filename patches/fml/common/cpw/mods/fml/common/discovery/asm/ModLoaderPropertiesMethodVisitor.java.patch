@@ -1,0 +1,17 @@
+--- a/cpw/mods/fml/common/discovery/asm/ModLoaderPropertiesMethodVisitor.java
++++ b/cpw/mods/fml/common/discovery/asm/ModLoaderPropertiesMethodVisitor.java
+@@ -31,7 +31,7 @@
+ 
+     public ModLoaderPropertiesMethodVisitor(String name, ASMModParser discoverer)
+     {
+-        super(Opcodes.ASM4);
++        super(Opcodes.ASM5);
+         this.discoverer = discoverer;
+     }
+     @Override
+@@ -71,3 +71,5 @@
+         }
+     }
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.

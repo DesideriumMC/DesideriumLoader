@@ -1,0 +1,17 @@
+{
+  "runtimeJava": 8,
+  "modClassMajors": [50, 51, 52],
+  "artifacts": [
+    {
+      "path": "org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar",
+      "sha256": "254b82bec9da4f8efbc8b1f93ab2b87f7465227a82b36cf3d05d9e77a0e8dd2e",
+      "extract": false,
+      "license": "BSD-3-Clause; ASM upstream notices apply"
+    }
+  ],
+  "sources": {
+    "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2-sources.jar",
+    "sha256": "b4845405fee9fe4f5f665dfe19badcf32581e3eea51b99a45e9f76a0a830c09d"
+  }
+}

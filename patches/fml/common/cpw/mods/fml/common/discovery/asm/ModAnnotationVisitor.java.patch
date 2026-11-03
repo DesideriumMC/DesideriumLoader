@@ -1,0 +1,17 @@
+--- a/cpw/mods/fml/common/discovery/asm/ModAnnotationVisitor.java
++++ b/cpw/mods/fml/common/discovery/asm/ModAnnotationVisitor.java
+@@ -24,7 +24,7 @@
+ 
+     public ModAnnotationVisitor(ASMModParser discoverer)
+     {
+-        super(Opcodes.ASM4);
++        super(Opcodes.ASM5);
+         this.discoverer = discoverer;
+     }
+     
+@@ -79,3 +79,5 @@
+         }
+     }
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.

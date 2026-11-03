@@ -1,0 +1,17 @@
+--- a/cpw/mods/fml/common/asm/ASMTransformer.java
++++ b/cpw/mods/fml/common/asm/ASMTransformer.java
+@@ -30,7 +30,7 @@
+         if ("net.minecraft.src.Block".equals(name))
+         {
+             ClassReader cr = new ClassReader(bytes);
+-            ClassNode cn = new ClassNode(Opcodes.ASM4);
++            ClassNode cn = new ClassNode(Opcodes.ASM5);
+             cr.accept(cn, ClassReader.EXPAND_FRAMES);
+             cn.interfaces.add(Type.getInternalName(BlockProxy.class));
+             ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES | ClassWriter.COMPUTE_MAXS);
+@@ -42,3 +42,5 @@
+     }
+ 
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.
