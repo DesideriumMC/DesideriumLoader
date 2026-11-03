@@ -1,6 +1,6 @@
 # 使用 HMCL
 
-从 [Release 0.0.1](https://github.com/DesideriumMC/DesideriumLoader-internal/releases/tag/v0.0.1) 下载通用安装器 JAR。
+旧 Release 已删除，目前暂无公开安装包。以下步骤适用于维护者构建的通用安装器 JAR。
 
 ## 拖入安装
 
