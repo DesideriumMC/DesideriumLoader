@@ -1,0 +1,17 @@
+--- a/cpw/mods/fml/common/asm/FMLSanityChecker.java
++++ b/cpw/mods/fml/common/asm/FMLSanityChecker.java
+@@ -70,7 +70,7 @@
+         private boolean foundMarker = false;
+         private MLDetectorClassVisitor()
+         {
+-            super(Opcodes.ASM4);
++            super(Opcodes.ASM5);
+         }
+ 
+         @Override
+@@ -246,3 +246,5 @@
+     }
+ 
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.

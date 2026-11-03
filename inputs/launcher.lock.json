@@ -1,0 +1,10 @@
+{
+  "version": {
+    "url": "https://piston-meta.mojang.com/v1/packages/b71bae449192fbbe1582ff32fb3765edf0b9b0a8/1.6.4.json",
+    "sha256": "e773d3d7f2a93c2706d1d06ff9574f9df388f9274a9ed131e11e8b05d09dc977"
+  },
+  "assets": {
+    "url": "https://launchermeta.mojang.com/v1/packages/770572e819335b6c0a053f8378ad88eda189fc14/legacy.json",
+    "sha256": "54ebdf3dc82adb97b5b9edc1df58cc7942c258c8af69744012563e4aa616d5e8"
+  }
+}

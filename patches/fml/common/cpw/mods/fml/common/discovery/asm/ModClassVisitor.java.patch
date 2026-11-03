@@ -1,0 +1,17 @@
+--- a/cpw/mods/fml/common/discovery/asm/ModClassVisitor.java
++++ b/cpw/mods/fml/common/discovery/asm/ModClassVisitor.java
+@@ -27,7 +27,7 @@
+ 
+     public ModClassVisitor(ASMModParser discoverer)
+     {
+-        super(Opcodes.ASM4);
++        super(Opcodes.ASM5);
+         this.discoverer = discoverer;
+     }
+ 
+@@ -65,3 +65,5 @@
+         }
+     }
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "origin": "forge/fml/fml.json from pinned .1345 source archive; all binary, source and native classifiers",
+  "hashProvenance": "SHA-256 observed from HTTPS downloads; not upstream signatures",
+  "artifacts": [
+    {
+      "path": "argo/argo/2.25_fixed/argo-2.25_fixed.jar",
+      "url": "https://libraries.minecraft.net/argo/argo/2.25_fixed/argo-2.25_fixed.jar",
+      "extract": false,
+      "sha256": "74920b1c096f98d7354e11b22d7632bee83dcae9a61e40edc6fbe4f94294c8b9"
+    },
+    {
+      "path": "com/google/code/gson/gson/2.2.2/gson-2.2.2-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2-sources.jar",
+      "extract": false,
+      "sha256": "c6f9d399e43140f429349e88a5a5a86d5c9dd9b5306f17eced9138322d2c4a93"
+    },
+    {
+      "path": "com/google/code/gson/gson/2.2.2/gson-2.2.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar",
+      "extract": false,
+      "sha256": "0f2b5f715a5506cc14ed352e5ff406b4c480a06344a479629b85e76c2aae7faa"
+    },
+    {
+      "path": "com/google/guava/guava/14.0/guava-14.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0/guava-14.0-sources.jar",
+      "extract": false,
+      "sha256": "3fe6d49b3d2bc7394b58de018b2d3a95fa8972e45a2cc54712254ea375b34b21"
+    },
+    {
+      "path": "com/google/guava/guava/14.0/guava-14.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0/guava-14.0.jar",
+      "extract": false,
+      "sha256": "c0127b076e3056f58294e4ae6c01a96599b8f58200345eb6f859192a2d9b2962"
+    },
+    {
+      "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+      "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+      "extract": false,
+      "sha256": "6c4b4e50e608763564afa1bde2d25ece9dd715e7c9129540faa1faded4896506"
+    },
+    {
+      "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+      "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+      "extract": false,
+      "sha256": "bb7d17b340afe6abdfbfdaa03683bce4aef39a64887dbab0636eaff3cf2d59ba"
+    },
+    {
+      "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+      "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+      "extract": false,
+      "sha256": "333bbefeff5eb1722dc9b8d2e26c38bc69c1efa07d0ca870480f29d8858aa336"
+    },
+    {
+      "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+      "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+      "extract": false,
+      "sha256": "107d11509f6af59b8c2ba23df828bc5d3c4e067b58f3d858c7deb90ca5308f84"
+    },
+    {
+      "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+      "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+      "extract": false,
+      "sha256": "2882d64550240dd0c026724da664d9f97ef205c91d6a85273d10790d88608f34"
+    },
+    {
+      "path": "commons-io/commons-io/2.4/commons-io-2.4-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar",
+      "extract": false,
+      "sha256": "d4635b348bbbf3f166d972b052bc4cac5b326c133beed7b8a1cab7ea22b61e01"
+    },
+    {
+      "path": "commons-io/commons-io/2.4/commons-io-2.4.jar",
+      "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar",
+      "extract": false,
+      "sha256": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581"
+    },
+    {
+      "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+      "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar",
+      "extract": false,
+      "sha256": "0c3085cb93c3ef95d731c274b6f2dd195aa0405fe9328d69cab7f5e899d5e124"
+    },
+    {
+      "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+      "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+      "extract": true,
+      "sha256": "1ab4d194277816b6105253d224c8c69f1b6d720690efe7c85f3ce884f0ea273d"
+    },
+    {
+      "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+      "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+      "extract": true,
+      "sha256": "171024b00f9a743b92388b48733dc30fd3f6d3a7da4f66f9821531fbcf1aa074"
+    },
+    {
+      "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+      "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+      "extract": true,
+      "sha256": "24afbd5e1fab17da57d16a4d3f19d53f36155ef46a9976484201a4bb9722287f"
+    },
+    {
+      "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar",
+      "extract": false,
+      "sha256": "4683e1a256f1512224157dd55c1422127c3a07985842a47e203361df8bdc1e2d"
+    },
+    {
+      "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+      "extract": false,
+      "sha256": "79b5a4f5829e1a49a415711f7fb8eb5b9ad22defa72929fda2da96ec30d3f018"
+    },
+    {
+      "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar",
+      "extract": false,
+      "sha256": "f5715ea3c02519553ff1a48129e6fe123c590f8fe8f68f5f27ef4a9b013ea1cd"
+    },
+    {
+      "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+      "extract": false,
+      "sha256": "c3334ff39cf0ab3b54925619101054c90098b7c733b1e7834c7b75e4c41e84a5"
+    },
+    {
+      "path": "net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar",
+      "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar",
+      "extract": false,
+      "sha256": "f4b9f75b1d7db46da3e6ab773e11fcab723a5998680c685aea04e3efde39f8c4"
+    },
+    {
+      "path": "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5-sources.jar",
+      "extract": false,
+      "sha256": "ac19c91a68c5c6d4924980d73c9d37f0f71e7149778f458d0f1580f971c81956"
+    },
+    {
+      "path": "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
+      "extract": false,
+      "sha256": "64335a48be6b142a7d0c13ec5c82a707857aa58c0234e6eda3eaca0e96eea51b"
+    },
+    {
+      "path": "net/sourceforge/argo/argo/2.25/argo-2.25-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/sourceforge/argo/argo/2.25/argo-2.25-sources.jar",
+      "extract": false,
+      "sha256": "f4de1ff3b5c845428abd6a0e2a57b37a0c39c24225adbf468f06d09d081d779c"
+    },
+    {
+      "path": "net/sourceforge/argo/argo/2.25/argo-2.25.jar",
+      "url": "https://repo.maven.apache.org/maven2/net/sourceforge/argo/argo/2.25/argo-2.25.jar",
+      "extract": false,
+      "sha256": "23c0d36b2a2fb96e4ade1f5f9773a3a4995b72de730a40519b5b85f4139e4f20"
+    },
+    {
+      "path": "org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar",
+      "extract": false,
+      "sha256": "352386fca09e9a1d657d9d4cb2e6142cd33b291ca7faea83f229e0a3a3efd70c"
+    },
+    {
+      "path": "org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar",
+      "extract": false,
+      "sha256": "131f0519a8e4602e47cf024bfd7e0834bcf5592a7207f9a2fdb711d4f5afc166"
+    },
+    {
+      "path": "org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47-sources.jar",
+      "extract": false,
+      "sha256": "022c7922f7b690313150e1bb95bac65d512172b7642bf3ef64c6c7d5a79ce182"
+    },
+    {
+      "path": "org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar",
+      "extract": false,
+      "sha256": "7fb12d09f041c294f08a0a51a2808438092273b51628eecaf2e0d0030b7556f5"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0-sources.jar",
+      "extract": false,
+      "sha256": "0031c5b10abe80ae551c9a702b00d0483c171fcde664963ce4516b7bd0a03307"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0.jar",
+      "extract": false,
+      "sha256": "474c2ca620f4147c72db9fa582993688d3c9bca5aed9d9e937ec4fa89b3c2fad"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-linux.jar",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-linux.jar",
+      "extract": true,
+      "sha256": "f89797962cd00024588b9972b7b2fb9d1c1c81817db0e47499824df2f8a310fd"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-osx.jar",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-osx.jar",
+      "extract": true,
+      "sha256": "6b230fabe2d02cad6965aed912f28097c6f89964c8311ca61359f49a8c374237"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-windows.jar",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.0/lwjgl-platform-2.9.0-natives-windows.jar",
+      "extract": true,
+      "sha256": "68d4e8a53168123051cc5729c41e89f4eef074f7fe1b42984cbc140f6bef6d43"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0-sources.jar",
+      "extract": false,
+      "sha256": "e75e2e731de11b584be61cba8eb0b3c52b8009984f0198977ce9051b69a6b161"
+    },
+    {
+      "path": "org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0.jar",
+      "extract": false,
+      "sha256": "c5fb453896fb511a7f949090795c79773f6d6c92e4d13d1f3100f4b2e331471a"
+    },
+    {
+      "path": "org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1-sources.jar",
+      "extract": false,
+      "sha256": "c90f79535627bba737ea1e5ffd0f4f15a3bf6737f8790e72dd451a4d4b5d7b9d"
+    },
+    {
+      "path": "org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar",
+      "extract": false,
+      "sha256": "c0f582e1eb589315a62939197116b24412c5f4386c5b78aee7b017a4532312ba"
+    },
+    {
+      "path": "org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2-sources.jar",
+      "extract": false,
+      "sha256": "fb569ded27450695f5a51e2805b8e657d0fe30d611d95c9e63d1ace8b97f2adb"
+    },
+    {
+      "path": "org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar",
+      "extract": false,
+      "sha256": "019ae7f9bb54f08d7d8057fb6380c4bf8faaa878e501567913dcb3a3c0f95d9f"
+    },
+    {
+      "path": "org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar",
+      "extract": false,
+      "sha256": "19f21c6b5a5ea7a24c4e5ee9c3e470cebbcd4e2a800ad099dd1751899f1a9294"
+    },
+    {
+      "path": "org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar",
+      "extract": false,
+      "sha256": "9b49ec36ccdea13fbca8d1e1e2a74a8cc94e4fa0a9aced1fc74f8df32c1b1b99"
+    }
+  ]
+}

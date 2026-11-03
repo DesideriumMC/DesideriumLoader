@@ -1,0 +1,26 @@
+--- a/cpw/mods/fml/relauncher/CoreModManager.java
++++ b/cpw/mods/fml/relauncher/CoreModManager.java
+@@ -209,7 +209,16 @@
+             FMLRelaunchLog.info("Found a command line coremod : %s", coreModClassName);
+             loadCoreMod(classLoader, coreModClassName, null);
+         }
+-        discoverCoreMods(mcDir, classLoader);
++        long desideriumDiscoveryStarted = System.nanoTime();
++        try {
++            discoverCoreMods(mcDir, classLoader);
++        } finally {
++            System.out.println("[DESIDERIUM-L2] coremod-discovery nanos=" + (System.nanoTime() - desideriumDiscoveryStarted));
++        }
++        String loaderMixin = "dev.desiderium.loader.LoaderMixinTweaker";
++        List<String> pending = (List<String>) Launch.blackboard.get("TweakClasses");
++        if (!pending.contains(loaderMixin)) tweaker.injectCascadingTweak(loaderMixin);
++        tweakSorting.put(loaderMixin, Integer.valueOf(1000));
+ 
+     }
+ 
+@@ -563,3 +572,5 @@
+         }
+     }
+ }
++
++// Modified by Desiderium: shared Mixin runtime and native Java 8 visitor support.

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "minecraft": "1.6.4",
+  "forge": "9.11.1.1345",
+  "provenance": "Official Forge Maven; SHA-256 observed and cross-checked with existing Loom input lock, not an upstream signature",
+  "artifacts": [
+    {
+      "name": "minecraft-client.jar",
+      "url": "https://launcher.mojang.com/v1/objects/1703704407101cf72bd88e68579e3696ce733ecd/client.jar",
+      "sha256": "f4513e51c766cdd1d32ca8acd0835d7e16e2851ebea3f2a3b4ce5ae696baf3ae",
+      "license": "Minecraft EULA; local use only; do not redistribute"
+    },
+    {
+      "name": "minecraft-server.jar",
+      "url": "https://launcher.mojang.com/v1/objects/050f93c1f3fe9e2052398f7bd6aca10c63d64a87/server.jar",
+      "sha256": "81841a2fedfe0ce19983156a06fa5294335284beeb95c8ca872d3c1a5fcf5774",
+      "license": "Minecraft EULA; local use only; do not redistribute"
+    },
+    {
+      "name": "forge-1.6.4-9.11.1.1345-src.zip",
+      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.4-9.11.1.1345/forge-1.6.4-9.11.1.1345-src.zip",
+      "sha256": "8543c4bbc02ace1fc72b9a85b38c01276eef07080f86bae847c1696af5ee749f",
+      "license": "Forge/FML and bundled component notices; full inventory pending"
+    },
+    {
+      "name": "forge-1.6.4-9.11.1.1345-universal.jar",
+      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.6.4-9.11.1.1345/forge-1.6.4-9.11.1.1345-universal.jar",
+      "sha256": "7acfb321c4b1fd35253b73dd2715f47cf3c38ee3ec4586d762c217114697df01",
+      "license": "Forge/FML and bundled component notices; full inventory pending"
+    },
+    {
+      "name": "mcp811.zip",
+      "url": "https://mcp.golde.org/dl/mcp811.zip",
+      "sha256": "6a9400225d6aafb019b3b04e58490b1b29966f5db0caffb62a81b4b552b7003a",
+      "license": "MCP terms included in archive; local tooling only; do not redistribute"
+    }
+  ],
+  "legacyMcp": {
+    "version": "8.11",
+    "originalUrl": "http://mcp.ocean-labs.de/files/archive/mcp811.zip",
+    "upstreamMd5": "2d7a759309b5cc10ca29caa0b10f3bfc",
+    "status": "Mirror bytes match original MD5 declared by Forge source archive; SHA-256 observed locally"
+  }
+}
