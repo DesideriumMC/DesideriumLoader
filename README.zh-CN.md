@@ -6,10 +6,10 @@
 
 ## Installation
 
-下载 [Windows/Linux 通用安装器 JAR](https://github.com/DesideriumMC/DesideriumLoader-internal/releases/download/v0.0.1/desiderium-installer-0.0.1.jar)，拖入 HMCL 的 Minecraft 1.6.4 版本安装页面，游戏选择 Java 8。
+旧版安装器 Release 已删除，目前暂无公开安装包。以下步骤适用于维护者构建的通用安装器 JAR：拖入 HMCL 的 Minecraft 1.6.4 版本安装页面，游戏选择 Java 8。
 详见 [HMCL 安装说明](installer/LAUNCHERS.zh-CN.md)。同一 JAR 也支持以下独立安装与启动命令。
 
-支持 Windows / Linux x64，需要 Java 8。从 [Release 0.0.1](https://github.com/DesideriumMC/DesideriumLoader-internal/releases/tag/v0.0.1) 下载安装器 JAR。首次安装需要联网。
+支持 Windows / Linux x64，需要 Java 8。首次安装需要联网。
 
 ### Windows
 
@@ -49,7 +49,7 @@ java -jar desiderium-installer-0.0.1.jar run --instance './Desiderium' --usernam
 源码，以 `-p1` 应用；Minecraft 补丁在 Forge/MCP 源码准备后以 `-p2` 应用。
 
 完整源码构建、测试、缓存与发布脚手架保留在
-[DesideriumLoader-internal](https://github.com/DesideriumMC/DesideriumLoader-internal)。
+私有仓库 [DesideriumLoader-internal](https://github.com/DesideriumMC/DesideriumLoader-internal)，访问需要维护者权限。
 核心仓库的干净克隆不包含完整构建环境。
 
 HMCL 拖放兼容的单 JAR 安装器生成代码在两端保留，包括 Java 安装器源码、

@@ -6,11 +6,11 @@ A Minecraft 1.6.4 / Forge 9.11.1.1345 runtime with Java 8 mod support, shared Mi
 
 ## Installation
 
-Download the [installer JAR](https://github.com/DesideriumMC/DesideriumLoader-internal/releases/download/v0.0.1/desiderium-installer-0.0.1.jar) for Windows/Linux x64.
+Previous installer releases have been removed; no public installer release is currently available. The following instructions apply to a maintainer-built universal installer JAR.
 Drag it into the installation page of a Minecraft 1.6.4 version in HMCL, then select Java 8 for the game. See the [HMCL installation guide](installer/LAUNCHERS.zh-CN.md).
 The same JAR also supports the standalone commands below.
 
-Requires Java 8 on Windows or Linux x64. Download the installer from [Release 0.0.1](https://github.com/DesideriumMC/DesideriumLoader-internal/releases/tag/v0.0.1). The first installation requires internet access.
+Requires Java 8 on Windows or Linux x64. The first installation requires internet access.
 
 ### Windows
 
@@ -51,7 +51,7 @@ changes. FML patches use pristine Forge 9.11.1.1345 sources with `-p1`; Minecraf
 patches apply after Forge/MCP setup with `-p2`.
 
 The full source build, tests, caches and release scaffolding live in
-[DesideriumLoader-internal](https://github.com/DesideriumMC/DesideriumLoader-internal).
+the private [DesideriumLoader-internal](https://github.com/DesideriumMC/DesideriumLoader-internal) repository (maintainer access required).
 A clean clone of this core repository does not contain that build environment.
 
 The HMCL-compatible single-JAR installer generator is retained in both
