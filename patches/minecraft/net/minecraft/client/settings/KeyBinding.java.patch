@@ -1,0 +1,38 @@
+--- a/minecraft/net/minecraft/client/settings/KeyBinding.java
++++ b/minecraft/net/minecraft/client/settings/KeyBinding.java
+@@ -21,21 +21,27 @@
+ 
+     public static void onTick(int par0)
+     {
+-        KeyBinding keybinding = (KeyBinding)hash.lookup(par0);
++        for (Object element : keybindArray)
++        {
++            KeyBinding keybinding = (KeyBinding)element;
+ 
+-        if (keybinding != null)
+-        {
+-            ++keybinding.pressTime;
++            if (keybinding.keyCode == par0)
++            {
++                ++keybinding.pressTime;
++            }
+         }
+     }
+ 
+     public static void setKeyBindState(int par0, boolean par1)
+     {
+-        KeyBinding keybinding = (KeyBinding)hash.lookup(par0);
++        for (Object element : keybindArray)
++        {
++            KeyBinding keybinding = (KeyBinding)element;
+ 
+-        if (keybinding != null)
+-        {
+-            keybinding.pressed = par1;
++            if (keybinding.keyCode == par0)
++            {
++                keybinding.pressed = par1;
++            }
+         }
+     }
+ 

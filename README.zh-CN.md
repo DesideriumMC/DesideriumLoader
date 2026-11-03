@@ -37,6 +37,10 @@ java -jar desiderium-installer-0.0.1.jar run --instance './Desiderium' --usernam
 
 ## Development
 
+当前源码构建支持同键多绑定：按下一个键会同时激活所有使用该键的绑定，
+在控制设置或 options.txt 中改键后同样生效，无需另装按键模组。
+此变更不会更新已发布的安装器。
+
 开发模组请使用 [DesideriumModTemplate](https://github.com/DesideriumMC/DesideriumModTemplate)，构建工具见 [DesideriumLoom](https://github.com/DesideriumMC/DesideriumLoom)。
 
 本仓库仅跟踪核心运行时与安装器源码、源码补丁和产品说明。

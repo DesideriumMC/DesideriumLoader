@@ -38,6 +38,10 @@ The standalone client uses a local session and does not provide Microsoft accoun
 
 ## Development
 
+Current source builds activate every binding assigned to a pressed key, including
+after rebinding in Controls or options.txt. No additional key-binding mod is needed.
+This does not update the previously published installer.
+
 To create a mod, use [DesideriumModTemplate](https://github.com/DesideriumMC/DesideriumModTemplate). Build tooling is maintained in [DesideriumLoom](https://github.com/DesideriumMC/DesideriumLoom).
 
 This repository tracks core runtime and installer sources, source patches and
